@@ -27,6 +27,7 @@ class TimeLeft
 
   def reset(options={})
     options.each{|k,v| self.send(:"#{k}=",v)}
+    self.format="%H:%M:%S" unless self.format
   end
 
   # Start to show time
