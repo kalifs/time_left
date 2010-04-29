@@ -2,7 +2,7 @@ require 'rubygems'
 require 'rake'
 require 'echoe'
 
-Echoe.new('time_left', '0.1.0') do |p|
+Echoe.new('time_left', '0.1.2') do |p|
   p.description    = "Print out time that left doing some process"
   p.url            = ""
   p.author         = "Artur Meisters"
